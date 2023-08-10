@@ -16,18 +16,45 @@ Config.Settings = {
 
 Config.engineLocations = {
   ["customsMain"] = { -- THis name should be unique no duplicates
-    ["coords"] = vector3(-367.13, -124.73, 38.7), -- The coords of the zone
+    ["coords"] = vector3(-340.22, -161.08, 39.01), -- The coords of the zone
     ["size"] = 2.0, -- How big is the zone?
-    ["heading"] = 0.0, -- Heading
+    ["heading"] = 167.68, -- Heading
     ["debug"] = false, -- Should zone be debugged?
     ["authorizedJob"] = "mechanic", -- job authorized to engine swap
     ["inVehicle"] = "Press E to engineswap", -- The name if a user is in a vehicle
     ["outVehicle"] = "You need to be in a vehicle!", -- Message if user is not in a vehicle
   },
-  ["Hayesauto"] = { -- THis name should be unique no duplicates
-    ["coords"] = vector3(-1423.39, -451.31, 35.91), -- The coords of the zone
+  ["redlineauto"] = { -- 
+    ["coords"] = vector3(-560.03, -914.73, 23.89), -- The coords of the zone
     ["size"] = 2.0, -- How big is the zone?
-    ["heading"] = 0.0, -- Heading
+    ["heading"] = 268.19, -- Heading
+    ["debug"] = false, -- Should zone be debugged?
+    ["authorizedJob"] = "mechanic", -- job authorized to engine swap
+    ["inVehicle"] = "Press E to engineswap", -- The name if a user is in a vehicle
+    ["outVehicle"] = "You need to be in a vehicle!", -- Message if user is not in a vehicle
+  },
+  ["oldbennys"] = { -- 
+    ["coords"] = vector3(-193.53, -1326.77, 31.3), -- The coords of the zone
+    ["size"] = 2.0, -- How big is the zone?
+    ["heading"] = 271.28, -- Heading
+    ["debug"] = false, -- Should zone be debugged?
+    ["authorizedJob"] = "mechanic", -- job authorized to engine swap
+    ["inVehicle"] = "Press E to engineswap", -- The name if a user is in a vehicle
+    ["outVehicle"] = "You need to be in a vehicle!", -- Message if user is not in a vehicle
+  },
+  ["lscustoms"] = { -- 
+    ["coords"] = vector3(728.86, -1073.16, 22.17), -- The coords of the zone
+    ["size"] = 2.0, -- How big is the zone?
+    ["heading"] = 87.67, -- Heading
+    ["debug"] = false, -- Should zone be debugged?
+    ["authorizedJob"] = "mechanic", -- job authorized to engine swap
+    ["inVehicle"] = "Press E to engineswap", -- The name if a user is in a vehicle
+    ["outVehicle"] = "You need to be in a vehicle!", -- Message if user is not in a vehicle
+  },
+  ["lscustoms2"] = { -- THis name should be unique no duplicates
+    ["coords"] = vvector3(-1166.93, -2012.98, 13.23), -- The coords of the zone
+    ["size"] = 2.0, -- How big is the zone?
+    ["heading"] = 128.31, -- Heading
     ["debug"] = false, -- Should zone be debugged?
     ["authorizedJob"] = "hayes", -- job authorized to engine swap
     ["inVehicle"] = "Press E to engineswap", -- The name if a user is in a vehicle
