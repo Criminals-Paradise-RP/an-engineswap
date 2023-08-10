@@ -6,7 +6,7 @@ Config.Settings = {
     ['UseJob'] = true,
     ['BossOnly'] = false,
   },
-  ['Notify'] = 'qb-core', -- qb-core, qb-drawtext, ps-ui
+  ['Notify'] = 'ps-ui', -- qb-core, qb-drawtext, ps-ui
   ['Payments'] = {
     ['UsePayment'] = true,
     ['RenewedBanking'] = false,
@@ -52,7 +52,7 @@ Config.engineLocations = {
     ["outVehicle"] = "You need to be in a vehicle!", -- Message if user is not in a vehicle
   },
   ["lscustoms2"] = { -- THis name should be unique no duplicates
-    ["coords"] = vvector3(-1166.93, -2012.98, 13.23), -- The coords of the zone
+    ["coords"] = vector3(-1166.93, -2012.98, 13.23), -- The coords of the zone
     ["size"] = 2.0, -- How big is the zone?
     ["heading"] = 128.31, -- Heading
     ["debug"] = false, -- Should zone be debugged?
